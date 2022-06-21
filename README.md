@@ -2,7 +2,9 @@
 
 The diary and images of my Antarctica and South Georgia voyage created in React.
 
-### Screenshot
+### Screenshot so far 
+
+![image](https://user-images.githubusercontent.com/80658809/174717448-1d70f56d-4281-4250-89b1-89870052b383.png)
 
 ### Links
 
