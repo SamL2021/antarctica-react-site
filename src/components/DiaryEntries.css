@@ -1,0 +1,66 @@
+.diary__item__info {
+    color: #252e48;
+}
+
+.diary__entries {
+    padding: 1rem;
+    background: #fff;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    /* border-bottom: #252e48 2px solid; */
+}
+
+.video {
+    text-align: center;
+}
+
+.diary__entries__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.diary__entries__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+}
+
+.diary__entries__items {
+    margin-bottom: 24px;
+    border: 2px solid #252e48;
+    padding: 30px;
+}
+
+.diary__item__text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.diary__item__excursion,
+.diary__item__checklist {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+    .content__blog__container {
+        width: 84%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .diary__entries {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .diary__entries {
+        margin-bottom: 2rem;
+    }
+}

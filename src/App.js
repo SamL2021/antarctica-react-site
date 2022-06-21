@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import Ship from "./components/pages/Ship";
 import Journey from "./components/pages/Journey";
 import Book from "./components/pages/Book";
+import Video from "./components/pages/Video";
 
 function App() {
     return (
@@ -14,9 +15,10 @@ function App() {
                 <NavBar />
                 <Routes>
                     <Route index element={<Home />} />
-                    <Route path="/journey" element={<Journey />} />
-                    <Route path="/ship" element={<Ship />} />
-                    <Route path="/book" element={<Book />} />
+                    <Route path="/the-journey" element={<Journey />} />
+                    <Route path="/the-ship" element={<Ship />} />
+                    <Route path="/book-now" element={<Book />} />
+                    <Route path="/video" element={<Video />} />
                 </Routes>
             </Router>
         </>

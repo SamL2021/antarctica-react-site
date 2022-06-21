@@ -1,6 +1,13 @@
 import React from "react";
 import "../../App.css";
+import Footer from "../Footer";
 
 export default function Book() {
-    return <h1 className="book">Book</h1>;
+    return (
+        <>
+            <h1 className="book">Want to experience Antarctica</h1>;
+            {/* <DiaryEntries /> */}
+            <Footer />
+        </>
+    );
 }
