@@ -1,10 +1,9 @@
-import "./button.css";
+import React from "react";
+import "./Button.css";
 import { Link } from "react-router-dom";
 
-// Array of CSS button style classes
 const STYLES = ["btn--primary", "btn--outline", "btn--test"];
 
-// Array of CSS button sizes classes
 const SIZES = ["btn--medium", "btn--large"];
 
 export const Button = ({
@@ -22,14 +21,13 @@ export const Button = ({
 
     return (
         <Link to="/video" className="btn-mobile">
-            <Button
+            <button
                 className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}
                 type={type}
             >
-                {/* Automatically displays components */}
                 {children}
-            </Button>
+            </button>
         </Link>
     );
 };
