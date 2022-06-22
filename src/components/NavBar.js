@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { button } from "./Button";
 import "./NavBar.css";
-// import logoImg from "./../Assets/img/penguin-logo.png";
 
 function NavBar() {
     const [click, setClick] = useState(false);
@@ -20,10 +19,6 @@ function NavBar() {
         }
     };
 
-    // useEffect(() => {
-    //     showButton();
-    // }, []);
-
     window.addEventListener("resize", showButton);
 
     return (
@@ -33,8 +28,6 @@ function NavBar() {
 
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                     ANTARCTICA
-                    {/* <img src={logoImg} alt="Penguin" /> */}
-                    {/* <i className="fab fa-typo3" /> */}
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -76,17 +69,7 @@ function NavBar() {
                             Book
                         </Link>
                     </li>
-                    {/* <li className="nav-item">
-                        <Link
-                            to="/sign-up"
-                            className="nav-links-mobile"
-                            onClick={closeMobileMenu}
-                        >
-                            Sign up
-                        </Link>
-                    </li> */}
                 </ul>
-                {/* {Button && <Button buttonStyle="btn--outline">SIGN UP</Button>} */}
             </nav>
         </>
     );

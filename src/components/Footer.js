@@ -19,7 +19,7 @@ function Footer() {
                     <div class="social-icons">
                         <Link
                             class="social-icon-link instagram"
-                            to="/"
+                            to="https://www.instagram.com/awesomeadventurecouple"
                             target="_blank"
                             aria-label="Instagram"
                         >
@@ -27,7 +27,7 @@ function Footer() {
                         </Link>
                         <Link
                             class="social-icon-link youtube"
-                            to="/"
+                            to="https://www.youtube.com/user/QueenKama"
                             target="_blank"
                             aria-label="Youtube"
                         >

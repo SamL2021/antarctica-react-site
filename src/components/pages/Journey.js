@@ -6,7 +6,6 @@ import Footer from "../Footer";
 export default function Journey() {
     return (
         <>
-            <br />
             <DiaryEntries />
             <Footer />
         </>

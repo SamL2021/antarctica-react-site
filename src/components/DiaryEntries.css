@@ -3,14 +3,12 @@
 }
 
 .diary__entries {
-    padding: 1rem;
-    background: #fff;
+    background: linear-gradient(90deg, #006ba1, #005a87 0%, #14475b 100%);
 }
 
 h3 {
     text-align: center;
     padding-bottom: 10px;
-    /* border-bottom: #252e48 2px solid; */
 }
 
 .video {
@@ -35,6 +33,7 @@ h3 {
     margin-bottom: 24px;
     border: 2px solid #252e48;
     padding: 30px;
+    background-color: #fff;
 }
 
 .diary__item__text {
