@@ -7,10 +7,7 @@ video {
 }
 
 .hero-container {
-    /* background: url("https://www.scenic.ca/-/media/scenic/canada/eclipse/scenic-eclipse-super-earlybirds-offer-hero-banner.png?mw=1024&hash=5D1DE9AC8F445331664A6B9078C8DB760279BC49")
-        center center/cover no-repeat; */
-
-    background: url("/public/images/img-home.jpg") center center/cover no-repeat;
+    /* background: url("/public/images/img-home.jpg") center center/cover no-repeat; */
     height: 90vh;
     width: 100%;
     display: flex;

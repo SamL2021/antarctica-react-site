@@ -27,7 +27,7 @@ function Footer() {
                         </Link>
                         <Link
                             class="social-icon-link youtube"
-                            to="https://www.youtube.com/user/QueenKama"
+                            to="youtube.com/playlist?list=PL_bCeg_eQS-tmDAW7ucZgt-uvDxqSxMti"
                             target="_blank"
                             aria-label="Youtube"
                         >
