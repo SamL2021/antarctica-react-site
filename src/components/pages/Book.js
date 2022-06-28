@@ -1,12 +1,12 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
+import { BookingForm } from "../BookingForm";
 
 export default function Book() {
     return (
         <>
-            <h1 className="book">Want to experience Antarctica</h1>;
-            {/* Create contact us <form action=""></form> */}
+            <BookingForm />
             <Footer />
         </>
     );

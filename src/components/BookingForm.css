@@ -1,0 +1,13 @@
+.booking__form__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+.booking__form {
+    padding: 30px;
+}
