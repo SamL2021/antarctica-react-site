@@ -11,9 +11,7 @@ function DiaryItem(props) {
                 <br />
                 <p className="diary__item__paragraph">{props.text}</p>
                 <br />
-                <p className="diary__item__checklist">
-                    <strong>Wildlife Checklist:</strong> {props.wildlife}
-                </p>
+                <h4 className="diary__item__checklist">{props.wildlife}</h4>
                 <br />
             </div>
         </>
