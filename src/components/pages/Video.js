@@ -16,7 +16,7 @@ export default function Video() {
                     <iframe
                         width="1000px"
                         height="600px"
-                        src="https://fast.wistia.com/embed/channel/31ag3su09q?wvideo=t0ztdkt7e8&amp;wchannelid=31ag3su09q&amp;wmediaid=t0ztdkt7e8"
+                        src="https://fast.wistia.com/embed/channel/31ag3su09q?wvideo=t0ztdkt7e8;wchannelid=31ag3su09q;wmediaid=t0ztdkt7e8"
                     ></iframe>
                 </section>
             </div>
